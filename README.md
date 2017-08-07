@@ -5,7 +5,7 @@ A simple EmulationStation theme for Recalbox/Batocera. Bbased on the CRT theme b
 
 ### Updates
 
-*5/14/2017*
+*07/08/2017*
 - Initial fork and edit of CRT Theme.
 - Removed unsupport ES theme items such as video/z-index/etc as they do not work in Recalbox/Batocera.
 - Add support for favorite, fba_libretro & pcenginecd.
