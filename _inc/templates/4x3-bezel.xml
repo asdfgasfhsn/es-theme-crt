@@ -140,10 +140,23 @@
    </view>
 
    <view name="detailed">
+      <image name="crt-bezel" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.2697916666666667 0.3666666666666667</pos>
+         <maxSize>0.35625 0.3638888888888889</maxSize>
+         <path>./../images/crt-bezel.svg</path>
+      </image>
       <image name="md_image">
          <origin>0.5 0.5</origin>
          <pos>0.2697916666666667 0.3666666666666667</pos>
          <maxSize>0.3333333333333333 0.3333333333333333</maxSize>
+      </image>
+      
+      <image name="crt-screen" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.2697916666666667 0.3666666666666667</pos>
+         <maxSize>0.3333333333333333 0.3333333333333333</maxSize>
+         <path>./../images/crt-screen.svg</path>
       </image>
 
    </view>

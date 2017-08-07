@@ -1,81 +1,60 @@
-# CRT, an EmulationStation theme with video support
-A simple theme for Emulation Station and RetroPie with support for the video view added by fieldofcows.  Originally based on the Carbon theme by Eric Hettervik; and then rebuilt from scratch so I could learn the theming system for ES.  Discussion ongoing in this thread: https://retropie.org.uk/forum/topic/7022/new-theme-crt-with-support-for-video-preview
+# BatoCRT, an EmulationStation theme for Recalbox/Batocera
+A simple EmulationStation theme for Recalbox/Batocera. Bbased on the CRT theme by Anthony that was originally based on the Carbon theme by Eric Hettervik; then tweaked to work with Recalbox/Batocera.
 
 ---
 
 ### Updates
 
 *5/14/2017*
-- Added display of marquee image
-- Cleaned up layout of metadata
-- Added basic styling of carousel
-
-*5/3/2017*
-- Updated CRT Bezel images from PNG to SVG to help with clean scaling on different resolutions
-- Added future support for z-index layering being discussed in this thread - https://retropie.org.uk/forum/topic/9785/z-index-support-for-themes
-
-*4/30/2017*
-- Fixed box art scaling issue on video view
-- Added 4x3 layout option
-- Added display of genre and release date metadata
-- Added backward compatibility check for older versions of retropie without video support
-- Added child friendly ES support
-
-*1/15/2017*
-- Created "CRT Centered" theme variant - https://github.com/anthonycaccese/es-theme-crt-centered
-
-*1/12/2017*
-- Increased the size of boxart displayed on the video view
-- Replaced genre and release date metadata with last played (genre and release date metadata does not appear to be consistent and last played does look like it will be more helpful overall)
-- Tightened up spacing and reordered metadata on detail and video views
+- Initial fork and edit of CRT Theme.
+- Removed unsupport ES theme items such as video/z-index/etc as they do not work in Recalbox/Batocera.
+- Add support for favorite, fba_libretro & pcenginecd.
+- Created templates with and without the CRT bezel for artwork, default template is 16x9 with no CRT bezel.
 
 ---
 
 ## Preview
-
-### Video Walkthrough
-https://www.youtube.com/embed/_elwCV5hxeA
-
-### Screenshots
-
-*Video View*
-![Video View](http://i.imgur.com/u8EfhV4.png)
-
-*Detailed View*
-![Detailed View](http://i.imgur.com/Ii6lhrp.png)
-
-*Basic View*
-![Basic View](http://i.imgur.com/wmnw3hn.png)
-
-*4x3 Layout*
-![Basic View](http://i.imgur.com/9hqpKPz.png)
-
-[For more images view the album on Imgur](http://imgur.com/a/w7JNT)
-
+TBC
 
 ## Details
 
 - Has support for system, basic, detailed and video views
-- Displays the following metadata on detailed and video views: rating, description, # of players, genre, publish date & last played
-- Matching splashscreens are included in the \_inc/images folder
-- 16x9 layout Tested on 720p and 1080p resolutions
-- 4x3 layout tested on 480p/480i resolutions
+- Displays the following metadata on detailed view:
+ - rating
+ - description
+ - number of players
+ - genre
+ - publish date
+ - last played
+- 16x9 layouts currently tested on 1080p resolutions
+- 4x3 and 16x10 layouts currently untested
 
 ## How to use
 
-- Requires a Pi2/3 (videos are very choppy on a Pi0/1)
-- Install latest version of retropie through the setup script (versions after 4.1.8 work)
-- Add <video> elements to your gamelist to reference videos for each game on your pi (videos can be stored anywhere just like images)
+### Installation
+Copy the theme directory to `\\RECALBOX\share\system\.emulationstation\themes\` and then select the theme in the UI settings menu.
 
-## Possible Future Updates
+### Customizing layout
+In `theme.xml` you can uncomment the layout template you wish to use. The default layout is 16x9 with no bezel.
 
-- System specific backgrounds that match historical poster designs for a given system (I built an NES example to check out here: http://i.imgur.com/XCx3Tko.png)
-- Grid view support
+~~~
+<theme>
+   <formatVersion>4</formatVersion>
+   <!--
+   Uncomment the template vesion below that you want to use...
+   -->
+
+   <!-- <include>./_inc/templates/4x3.xml</include> -->
+   <include>./_inc/templates/16x9.xml</include>
+   <!-- <include>./_inc/templates/16x10.xml</include> -->
+   <!-- <include>./_inc/templates/4x3-bezel.xml</include> -->
+   <!-- <include>./_inc/templates/16x9-bezel.xml</include> -->
+   <!-- <include>./_inc/templates/16x10-bezel.xml</include> -->
+</theme>
+~~~
 
 ## Acknowledgments
 
-- Inspired by old console poster designs (see: http://imgur.com/J4eeTun and http://imgur.com/Ut0SWfJ for examples) 
-- All Logo graphics are from the default Carbom theme made by Eric Hettervik (see: https://github.com/RetroPie/es-theme-carbon/)
-- Static.mp4 default video from OldRoom theme by Nismo (see: https://retropie.org.uk/forum/topic/5823/looking-for-testers-for-es-video-preview-on-raspberry-pi/20)
-- Video support possible because of work done by fieldofcows (see: https://retropie.org.uk/forum/topic/4820/video-preview-in-emulationstation)
+- Based on the EmulationStation CRT theme by Anthony (see: https://github.com/anthonycaccese/es-theme-crt)
+- All Logo graphics are from the default Carbon theme made by Eric Hettervik (see: https://github.com/RetroPie/es-theme-carbon/)
 - Theme tutorial written by mattrixk was a huge help in learning how to build this (see: https://github.com/RetroPie/RetroPie-Setup/wiki/Creating-Your-Own-EmulationStation-Theme)

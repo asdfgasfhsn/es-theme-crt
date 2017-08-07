@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-theme name:     CRT
+theme name:     BatoCRT
 version:        1.0
-author:         Anthony
+author:         asdfgasfhsn
 license:        creative commons CC-BY-NC-SA
-based on:       "Carbon" by Eric Hettervik
+based on:       "CRT" by Anthony / "Carbon" by Eric Hettervik
 -->
+
+
 <theme>
    <formatVersion>4</formatVersion>
+   <!--
+   Uncomment the template vesion below that you want to use...
+   -->
+
+   <!-- <include>./_inc/templates/4x3.xml</include> -->
    <include>./_inc/templates/16x9.xml</include>
+   <!-- <include>./_inc/templates/16x10.xml</include> -->
+   <!-- <include>./_inc/templates/4x3-bezel.xml</include> -->
+   <!-- <include>./_inc/templates/16x9-bezel.xml</include> -->
+   <!-- <include>./_inc/templates/16x10-bezel.xml</include> -->
 </theme>
