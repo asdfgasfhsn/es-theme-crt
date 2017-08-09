@@ -50,18 +50,18 @@
       </text>
 
       <rating name="md_rating">
-         <pos>0.2015625 0.5888888888888889</pos>
+         <pos>0.2015625 0.7455555555555</pos>
          <size>0.2515625 0.0277777777777778</size>
          <filledPath>./../images/star_filled.svg</filledPath>
          <unfilledPath>./../images/star_empty.svg</unfilledPath>
       </rating>
-      <image name="md_hidden">
+      <!-- <image name="md_hidden">
          <origin>0 0</origin>
-         <pos>0.390625 0.5888888888888889</pos>
+         <pos>0.390625 0.7488888888888889</pos>
          <maxSize>0 0</maxSize>
          <path>./../images/hidden.svg</path>
          <color>bba35880</color>
-      </image>
+      </image> -->
       <text name="md_lbl_favorite">
          <pos>1 1</pos>
          <color>000000</color>
@@ -74,54 +74,47 @@
       </text>
 
       <text name="md_lbl_lastplayed">
-         <pos>0.2015625 0.62</pos>
+         <pos>0.2015625 0.78</pos>
          <size>0.09109375 0.0277777777777778</size>
          <fontSize>0.02</fontSize>
       </text>
       <datetime name="md_lastplayed">
-         <pos>0.27425 0.62</pos>
+         <pos>0.2763 0.78</pos>
          <size>0.1171875 0.0277777777777778</size>
          <fontSize>0.02</fontSize>
       </datetime>
 
       <text name="md_lbl_releasedate">
-         <pos>0.2015625 0.65</pos>
+         <pos>0.2015625 0.81</pos>
          <size>0.05765625 0.0277777777777778</size>
          <fontSize>0.02</fontSize>
       </text>
       <datetime name="md_releasedate">
-         <pos>0.2615625 0.65</pos>
+         <pos>0.262 0.81</pos>
          <size>0.007578125 0.0277777777777778</size>
          <fontSize>0.02</fontSize>
       </datetime>
 
       <text name="md_lbl_players">
-         <pos>0.2015625 0.68</pos>
+         <pos>0.2015625 0.84</pos>
          <size>0.05765625 0.0277777777777778</size>
          <fontSize>0.02</fontSize>
       </text>
       <text name="md_players">
-         <pos>0.2525 0.68</pos>
+         <pos>0.255 0.84</pos>
          <size>0.028125 0.0277777777777778</size>
          <fontSize>0.02</fontSize>
       </text>
 
       <text name="md_lbl_genre">
-         <pos>0.2015625 0.71</pos>
+         <pos>0.2015625 0.87</pos>
          <size>0.07421875 0.0277777777777778</size>
          <fontSize>0.02</fontSize>
       </text>
       <text name="md_genre">
-         <pos>0.24515625 0.71</pos>
+         <pos>0.24415625 0.87</pos>
          <size>0.2215625 0.0277777777777778</size>
          <fontSize>0.02</fontSize>
-      </text>
-
-      <text name="md_description">
-         <pos>0.2015625 0.7416666666666667</pos>
-         <size>0.2515625 0.1472222222222222</size>
-         <color>999999</color>
-         <fontSize>0.014</fontSize>
       </text>
 
       <textlist name="gamelist">
@@ -135,8 +128,8 @@
    <view name="detailed">
       <image name="md_image">
          <origin>0.5 0.5</origin>
-         <pos>0.32734375 0.3666666666666667</pos>
-         <maxSize>0.25 0.333333333333333</maxSize>
+         <pos>0.30734375 0.45333333333337</pos>
+         <maxSize>0.43210 0.555</maxSize>
       </image>
    </view>
 
