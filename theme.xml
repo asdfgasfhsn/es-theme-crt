@@ -13,11 +13,18 @@ based on:       "CRT" by Anthony / "Carbon" by Eric Hettervik
    <!--
    Uncomment the template vesion below that you want to use...
    -->
+   <!-- This Section for Recalbox/Batocera templates... -->
+   <!-- <include>./_inc/templates/recalbox/4x3.xml</include> -->
+   <!-- <include>./_inc/templates/recalbox/16x9-no_desc.xml</include> -->
+   <!-- <include>./_inc/templates/recalbox/16x10.xml</include> -->
+   <!-- <include>./_inc/templates/recalbox/4x3-bezel.xml</include> -->
+   <!-- <include>./_inc/templates/recalbox/16x9-bezel.xml</include> -->
+   <!-- <include>./_inc/templates/recalbox/16x10-bezel.xml</include> -->
 
-   <!-- <include>./_inc/templates/4x3.xml</include> -->
-   <include>./_inc/templates/16x9.xml</include>
-   <!-- <include>./_inc/templates/16x10.xml</include> -->
-   <!-- <include>./_inc/templates/4x3-bezel.xml</include> -->
-   <!-- <include>./_inc/templates/16x9-bezel.xml</include> -->
-   <!-- <include>./_inc/templates/16x10-bezel.xml</include> -->
+
+   <!-- This Section for RetroPie templates... -->
+   <!-- <include>./_inc/templates/retropie/4x3.xml</include> -->
+   <!-- <include>./_inc/templates/retropie/16x9.xml</include> -->
+   <include>./_inc/templates/retropie/16x9-no_desc.xml</include>
+   <!-- <include>./_inc/templates/retropie/16x10.xml</include> -->
 </theme>

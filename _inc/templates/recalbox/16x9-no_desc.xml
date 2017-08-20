@@ -11,7 +11,7 @@
          <pos>0 0</pos>
          <size>1 1</size>
          <tile>true</tile>
-         <path>./../images/background.png</path>
+         <path>./../../images/background.png</path>
       </image>
    </view>
 
@@ -28,7 +28,7 @@
          <selectedColor>bba358</selectedColor>
          <primaryColor>eaeaea</primaryColor>
          <secondaryColor>eaeaea</secondaryColor>
-         <fontPath>./../fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontPath>./../../fonts/Cabin-Bold-TTF.ttf</fontPath>
          <fontSize>0.0275</fontSize>
          <forceUppercase>1</forceUppercase>
          <alignment>center</alignment>
@@ -44,7 +44,7 @@
       </datetime>
       <text name="md_description,md_lastplayed,md_lbl_lastplayed,md_lbl_players,md_lbl_releasedate,md_players,md_releasedate,md_lbl_genre,md_genre">
          <color>555555</color>
-         <fontPath>./../fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontPath>./../../fonts/Cabin-Bold-TTF.ttf</fontPath>
          <fontSize>0.0222222222222222</fontSize>
          <forceUppercase>1</forceUppercase>
       </text>
@@ -52,14 +52,14 @@
       <rating name="md_rating">
          <pos>0.2015625 0.7455555555555</pos>
          <size>0.2515625 0.0277777777777778</size>
-         <filledPath>./../images/star_filled.svg</filledPath>
-         <unfilledPath>./../images/star_empty.svg</unfilledPath>
+         <filledPath>./../../images/star_filled.svg</filledPath>
+         <unfilledPath>./../../images/star_empty.svg</unfilledPath>
       </rating>
       <!-- <image name="md_hidden">
          <origin>0 0</origin>
          <pos>0.390625 0.7488888888888889</pos>
          <maxSize>0 0</maxSize>
-         <path>./../images/hidden.svg</path>
+         <path>./../../images/hidden.svg</path>
          <color>bba35880</color>
       </image> -->
       <text name="md_lbl_favorite">

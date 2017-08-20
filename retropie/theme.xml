@@ -9,7 +9,7 @@
 	</view>
 
 	<view name="detailed,video">
-	  <text name="md_lbl_players,md_players,md_genre,md_releasedate,md_rating,md_lbl_lastplayed,md_lastplayed">
+	  <text name="md_description,md_lastplayed,md_lbl_lastplayed,md_lbl_players,md_lbl_releasedate,md_players,md_releasedate,md_lbl_genre,md_genre">
          <pos>1 1</pos>
       </text>
       <image name="md_lbl_lastplayed_slash,md_lbl_players_slash,md_releasedate_slash,md_genre_slash" extra="true">
@@ -18,6 +18,9 @@
       <text name="md_description">
          <pos>0.2015625 0.5888888888888889</pos>
       </text>
+			<rating name="md_rating">
+				<pos>1 1</pos>
+			</rating>
     </view>
 
 </theme>

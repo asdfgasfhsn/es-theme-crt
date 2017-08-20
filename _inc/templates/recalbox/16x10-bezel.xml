@@ -11,7 +11,7 @@
          <pos>0 0</pos>
          <size>1 1</size>
          <tile>true</tile>
-         <path>./../images/background.png</path>
+         <path>./../../images/background.png</path>
       </image>
    </view>
 
@@ -29,10 +29,10 @@
          <selectedColor>bba358</selectedColor>
          <primaryColor>eaeaea</primaryColor>
          <secondaryColor>eaeaea</secondaryColor>
-         <fontPath>./../fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontPath>./../../fonts/Cabin-Bold-TTF.ttf</fontPath>
          <fontSize>0.03375</fontSize>
          <forceUppercase>1</forceUppercase>
-         <scrollSound>./../sounds/select.wav</scrollSound>
+         <scrollSound>./../../sounds/select.wav</scrollSound>
          <alignment>center</alignment>
       </textlist>
    </view>
@@ -46,28 +46,28 @@
       </datetime>
       <text name="md_description,md_lastplayed,md_lbl_lastplayed,md_lbl_players,md_players,md_releasedate,md_genre">
          <color>555555</color>
-         <fontPath>./../fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontPath>./../../fonts/Cabin-Bold-TTF.ttf</fontPath>
          <fontSize>0.02</fontSize>
       </text>
 
       <rating name="md_rating">
          <pos>0.2015625 0.58</pos>
          <size>0.2515625 0.025</size>
-         <filledPath>./../images/star_filled.svg</filledPath>
-         <unfilledPath>./../images/star_empty.svg</unfilledPath>
+         <filledPath>./../../images/star_filled.svg</filledPath>
+         <unfilledPath>./../../images/star_empty.svg</unfilledPath>
       </rating>
       <image name="md_hidden">
          <origin>0 0</origin>
          <pos>0.390625 0.58</pos>
          <maxSize>0.02109375 0.025</maxSize>
-         <path>./../images/hidden.svg</path>
+         <path>./../../images/hidden.svg</path>
          <color>bba35880</color>
       </image>
       <image name="md_kidgame">
          <origin>0 0</origin>
          <pos>0.4171875 0.58</pos>
          <maxSize>0.0125 0.025</maxSize>
-         <path>./../images/kid.svg</path>
+         <path>./../../images/kid.svg</path>
          <color>bba35880</color>
       </image>
       <text name="md_lbl_favorite">
@@ -84,7 +84,7 @@
          <origin>0 0</origin>
          <pos>0.2015625 0.63</pos>
          <maxSize>0.00703125 0.025</maxSize>
-         <path>./../images/metadata.svg</path>
+         <path>./../../images/metadata.svg</path>
       </image>
       <text name="md_lbl_lastplayed">
          <pos>0.21015625 0.63</pos>
@@ -99,7 +99,7 @@
          <origin>0 0</origin>
          <pos>0.2015625 0.6675</pos>
          <maxSize>0.00703125 0.025</maxSize>
-         <path>./../images/metadata.svg</path>
+         <path>./../../images/metadata.svg</path>
       </image>
       <text name="md_lbl_players">
          <pos>0.21015625 0.6675</pos>
@@ -114,7 +114,7 @@
          <origin>0 0</origin>
          <pos>0.2859375 0.6675</pos>
          <maxSize>0.00703125 0.025</maxSize>
-         <path>./../images/metadata.svg</path>
+         <path>./../../images/metadata.svg</path>
       </image>
       <datetime name="md_releasedate">
          <pos>0.29453125 0.6675</pos>
@@ -125,7 +125,7 @@
          <origin>0 0</origin>
          <pos>0.3703125 0.6675</pos>
          <maxSize>0.00703125 0.025</maxSize>
-         <path>./../images/metadata.svg</path>
+         <path>./../../images/metadata.svg</path>
       </image>
       <text name="md_genre">
          <pos>0.37890625 0.6675</pos>
@@ -148,10 +148,22 @@
    </view>
 
    <view name="detailed">
+      <image name="crt-bezel" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.32734375 0.38</pos>
+         <maxSize>0.2671875 0.3275</maxSize>
+         <path>./../../images/crt-bezel.svg</path>
+      </image>
       <image name="md_image">
          <origin>0.5 0.5</origin>
          <pos>0.32734375 0.38</pos>
          <maxSize>0.25 0.3</maxSize>
+      </image>
+      <image name="crt-screen" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.32734375 0.38</pos>
+         <maxSize>0.25 0.3</maxSize>
+         <path>./../../images/crt-screen.svg</path>
       </image>
    </view>
 
